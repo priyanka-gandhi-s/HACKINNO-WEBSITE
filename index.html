@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>HaCKinno</title>
+    <style>
+        /* Add your CSS styles here */
+/* Add your CSS styles here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.header {
+    position: relative;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Keep items on the right */
+    gap: 30px;
+    cursor: pointer;
+    margin-right: 6rem; /* Adjust the margin to move items towards the center */
+}
+
+
+.nav-list li {
+    font-size: 22px;
+    letter-spacing: 0.1em;
+    transition: 0.3s;
+}
+
+.nav-list a {
+    text-decoration: none;
+    padding: 8px 15px;
+    border: 1px solid transparent;
+    background-color: transparent;
+    color: #ff2da8;
+    border-radius: 5px;
+}
+
+.nav-list a:hover {
+
+    border-color: #ffcf81;
+}
+
+.nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 6rem;
+    background: black;
+    box-shadow: rgb(0, 0, 0) 3px 3px 6px 0px inset,
+                rgba(0, 0, 0, 0.5) -3px -3px 6px 1px,
+                rgba(0, 0, 0, 0.5) 3px 3px 6px 1px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.nav h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    list-style-type: none; /* Remove bullet points from list items */
+}
+
+.nav span {
+    color: #ff3694;
+}
+
+#myVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 700px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 31, 98, 0.2);
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    margin-top: 80px;
+}
+
+.problem-statement-container {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border: 3px solid #ff0095;
+    background-color: #d8b8c5;
+    margin: 10px 0;
+    border-radius: 5px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.box:hover {
+    transform: translateX(2px);
+}
+
+.problem-statement,
+.description {
+    flex: 1;
+    padding: 10px;
+}
+
+.problem-statement {
+    border-right: 1px solid #ccc;
+}
+
+h2 {
+    margin-top: 0;
+}
+.half-half-heading {
+        color: #ff0080;}
+.search-bar {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.share-buttons {
+    margin-bottom: 20px;
+}
+
+        /* Add any additional styles you need */
+    </style>
+</head>
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="space.mp4" type="video/mp4">
+    </video>
+    <div class="i" style="position: relative;">
+        <img src="./robot-humanoid-three-dimensional-space-3d-computer-graphics-stock-photography-robotics-67219a46ed55f668172dec3fa6013381.png"
+             class="small-image"
+             style="position: absolute;top: 150px;  left: 250px; width: 400px; height: 500px;">
+    </div>
+    <div class="header">
+        <div class="nav">
+            <h1>HaCK<span>inno</span></h1>
+            <ul class="nav-list">
+                <li><a href="#"><b>Home</b></a></li>
+                <li><a href="#"><b>Register</b></a></li>
+                <li><a href="./in.html"><b>Problem Statement</b></a></li>
+                <li><a href="#"><b>Contact us</b></a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="main3">
+
+
+        <div class="main">
+            <div class="picture">
+                <img src="./astronaut.png" alt="">
+            </div>
+            <div class="main__text">
+                <h1 class="half-half-heading ">haCK<span>inno</span></h1>
+                <p>A technical intracollege hackathon to showcase your skills in the domain of Artificial intelligence(AI)</p>
+                <button class="btn">Register</div><button>
+            </div>
+        </div>
+    
+            <!-- JavaScript for searching problem statements -->
+
+        </div>
+    </div>
+</body>
+</html>
